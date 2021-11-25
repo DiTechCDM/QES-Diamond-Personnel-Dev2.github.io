@@ -461,17 +461,15 @@ body, html {
         -ms-flex-align: initial;
         align-items: initial;
     }
-
-}
-
-@media screen and (max-width: 768px) {
     .row-lg-one {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
     }
+}
 
+@media screen and (max-width: 768px) {
     .col-text-1 h3 {
         display: initial;
     }
